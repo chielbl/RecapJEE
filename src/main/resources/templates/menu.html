@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" th:href="@{~/css/main.css}">
+    <link rel="stylesheet" th:href="@{~/css/menu.css}">
+    <title>Title</title>
+</head>
+<body>
+<nav id="navbar" th:fragment="navbar">
+    <ul>
+        <li><a th:href="@{~/products}">Home</a></li>
+        <li><a th:href="@{~/about}">About</a></li>
+        <li><a th:href="@{~/addProduct}">Create a new product</a></li>
+    </ul>
+</nav>
+</body>
+<footer class="container-fluid">
+    <p>&copy;2018 Chiel Bleyenbergh</p>
+</footer>
+</html>

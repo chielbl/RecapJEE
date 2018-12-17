@@ -1,0 +1,26 @@
+nav{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100000;
+    background: linear-gradient(#2E3192,#1BFFFF);
+}
+nav ul{
+    list-style: none;
+    margin-top: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+nav ul li a{
+    color: white;
+    border: white solid;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 1.25em;
+}
+nav ul li a:hover{
+    color: white;
+}

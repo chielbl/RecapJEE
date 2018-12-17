@@ -1,0 +1,14 @@
+html,body{
+    margin-top: 100px;
+    background-color:white;
+}
+footer{
+    margin-top: 10px;
+    background: linear-gradient(#2E3192,#1BFFFF);
+}
+footer p{
+    margin: 10px;
+    font-size: 1em;
+    text-align: center;
+    color: white;
+}
